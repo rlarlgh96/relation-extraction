@@ -40,7 +40,6 @@ def data_cleaning(df):
 train, validation, test = pd.read_csv("./train/train.csv"), pd.read_csv("./validation/validation.csv"), pd.read_csv("./test/test.csv")
 train, validation, test = extract_columns(train), extract_columns(validation), extract_columns(test)
 train = data_cleaning(train)
-# train = data_augmentation(train)
 train.to_csv("./train/train_final.csv", index=False)
 validation.to_csv('./validation/validation_final.csv', index=False)
 test.to_csv("./test/test_final.csv", index=False)
