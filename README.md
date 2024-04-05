@@ -34,7 +34,7 @@
 ### Modeling
 <img width="1000" src="https://github.com/rlarlgh96/relation-extraction/assets/121072239/b8fe4f53-036e-450f-b588-28be5956edcd"><br>
 <img width="1000" src="https://github.com/rlarlgh96/relation-extraction/assets/121072239/a3b53f50-1ddc-47cd-b733-4177fe34bf64"><br>
-- ***An Improved Baseline for Sentence-level Relation Extraction*** 논문에서는, BERT 모델을 사용했을 때 entity의 종류에 따라 special token을 추가하여 marker를 달아준 Typed entity marker 방식이 가장 높은 성능을 보였다고 한다.
+- ***An Improved Baseline for Sentence-level Relation Extraction*** 논문에서 entity의 종류에 따라 special token을 추가하여 marker를 달아준 Typed entity marker가 가장 높은 성능을 보였다.
 - 이러한 방식을 적용하기 위해 모델 tokenizer에 entity 종류에 따른 24가지 special token을 추가하였고, 그에 따라 모델 embedding size를 수정했다.
 - 모델의 input에 넣을 문장에 논문과 같이 Typed entity marker를 달아주었고, 수행할 task를 나타내는 query 문장을 SEP 토큰과 함께 기존의 문장 앞에 추가하였다.
 - 모델의 output에서 CLS 토큰의 embedding과 함께 subject entity와 object entity를 나타내는 Typed entity marker의 embedding을 출력하고, 이를 하나로 결합하는 linear layer를 추가하였다. 이렇게 결합한 embedding을 30개의 클래스로 분류하는 분류기에 넣어 label 예측에 활용하였다.
