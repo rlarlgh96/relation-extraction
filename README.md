@@ -32,7 +32,7 @@
 - train 데이터셋에서 데이터가 중복되거나 label만 다른 46개의 데이터를 제거하였다.
 
 ### Modeling
-<img width="1000" src="https://github.com/rlarlgh96/relation-extraction/assets/121072239/29bae6c6-2deb-49b2-82e8-50bbe3906f4f"><br>
+<img width="1000" src="https://github.com/rlarlgh96/relation-extraction/assets/121072239/b8fe4f53-036e-450f-b588-28be5956edcd"><br>
 <img width="1000" src="https://github.com/rlarlgh96/relation-extraction/assets/121072239/a3b53f50-1ddc-47cd-b733-4177fe34bf64"><br>
 - ***An Improved Baseline for Sentence-level Relation Extraction*** 논문에서는, BERT 모델을 사용했을 때 entity의 종류에 따라 special token을 추가하여 marker를 달아준 Typed entity marker 방식이 가장 높은 성능을 보였다고 한다.
 - 이러한 방식을 적용하기 위해 모델 tokenizer에 entity 종류에 따른 24가지 special token을 추가하였고, 그에 따라 모델 embedding size를 수정했다.
