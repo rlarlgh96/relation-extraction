@@ -7,7 +7,7 @@
 - Relation Extraction(RE)는 개체(entity)에 대한 속성과 관계를 예측하는 NLP task로, 본 대회에서는 Bert 모델을 사용해 문장 내 존재하는 두 개체의 관계를 총 30가지 중 하나로 분류한다.
 
 ### 평가 방법
-- 본 대회에서는 두 가지 평가 지표(no_relation을 제외한 micro F1 score, 모든 label에 대한 area under the precision-recall curve(AUPRC), micro F1 score를 우선시 함)를 활용해 모델의 성능을 평가한다.
+- 본 대회에서는 두 가지 평가 지표(no_relation을 제외한 micro F1 score, 모든 label에 대한 area under the precision-recall curve(AUPRC), micro F1 score를 우선시 함)를 사용해 모델의 성능을 평가한다.
 
 ## 프로젝트 수행 과정
 ### Data description
