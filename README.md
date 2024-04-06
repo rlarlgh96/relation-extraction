@@ -4,7 +4,7 @@
 ### 대회 소개
 <img width="750" src="https://github.com/rlarlgh96/relation-extraction/assets/121072239/6497ff3c-95aa-4ef8-812e-3f0b2c1239c4"><br>
 - 본 프로젝트는 네이버 부스트캠프 AI Tech 6기 NLP 트랙 과정에서 진행한 교육용 대회 프로젝트이다.
-- Relation Extraction(RE)는 개체(entity)에 대한 속성과 관계를 예측하는 NLP task로, 본 대회는 문장 내 존재하는 두 개체의 관계를 30가지 중 하나로 분류하는 대회이다.
+- Relation Extraction(RE)는 개체(entity)에 대한 속성과 관계를 예측하는 NLP task로, 문장 내 존재하는 두 개체의 관계를 30가지 중 하나로 분류하는 대회이다.
 
 ### 평가 방법
 - 본 대회에서는 두 가지 평가 지표(no_relation을 제외한 micro F1 score, 모든 label에 대한 area under the precision-recall curve(AUPRC), micro F1 score를 우선시 함)를 사용해 모델의 성능을 평가한다.
