@@ -42,7 +42,7 @@
 ## 프로젝트 수행 결과
 - 프로젝트 수행 결과, 모델의 성능을 7.0123점 향상시켰다.
   
-  | model | F1 score |
+  | model | score |
   |--------|--------|
   | baseline | 71.0283 |
   | Typed entity marker | 78.0406 |
